@@ -36,10 +36,13 @@ To make changelog nice you need to squash and merge the commit.
 Or periodically commit message with the angular commit format.
 
 **It is nice to have pull request number and issues in the title and body**
+
 For an example
 
+```
 feat(api): add 'view_order' command (#16)   <---- Title
 resolved #13                                <---- Body
+```
 
 The changelog will be something like this.
 
