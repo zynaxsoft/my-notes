@@ -13,6 +13,7 @@ we have to disable the javascript publishing part by specifying the plugin
 that we want to use.
 
 In this case we should use.
+```
 {
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -20,6 +21,7 @@ In this case we should use.
     "@semantic-release/github",
   ]
 }
+```
 
 Otherwise, it will include @semantic-release/npm by default and it will looks for
 package.json and try to publish on npm which we do not want.
